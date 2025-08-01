@@ -1,0 +1,99 @@
+site_name: My Docs
+site_url: https://objective-abk.pages.dev/docs/
+copyright: © Federico Prask 2024-2025
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features :
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - navigation.top
+  lang:
+    zh
+
+extra:
+  alternate:
+    - name: 中文（简体）
+      link: /
+      lang: zh
+
+plugins:
+  # - mkdocs-material-extensions
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - toc:
+      permalink: ""
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - pymdownx.magiclink
+  - pymdownx.progressbar
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 主页:
+    - 主页: index.md
+  - 题解:
+    - 题解: 题解/index.md
+    - 洛谷:
+      - 题解：B4279 [蓝桥杯青少年组国赛 2023] 数独填数: 题解/洛谷/题解：B4279 [蓝桥杯青少年组国赛 2023] 数独填数.md
+      - 题解：P12218 [蓝桥杯 2023 国 Java B] 玩具: 题解/洛谷/题解：P12218 [蓝桥杯 2023 国 Java B] 玩具.md
+      - 题解：P12280 [蓝桥杯 2024 国 Python A] 特别的数组: 题解/洛谷/题解：P12280 [蓝桥杯 2024 国 Python A] 特别的数组.md
+      - 题解：P12289 [蓝桥杯 2024 国 Java A] 修改数位: 题解/洛谷/题解：P12289 [蓝桥杯 2024 国 Java A] 修改数位.md
+      - 题解：P12315 [蓝桥杯 2024 国 C] 挑苹果: 题解/洛谷/题解：P12315 [蓝桥杯 2024 国 C] 挑苹果.md
+      - 题解：P12327 [蓝桥杯 2023 省 Java B] 蜗牛: 题解/洛谷/题解：P12327 [蓝桥杯 2023 省 Java B] 蜗牛.md
+      - 题解：P12413 「YLLOI-R1-T2」圣诞星: 题解/洛谷/题解：P12413 「YLLOI-R1-T2」圣诞星.md
+      - 题解：P13134 [GCJ 2018 Qualification] Go, Gopher!: 题解/洛谷/题解：P13134 [GCJ 2018 Qualification] Go, Gopher!.md
+      - 题解：P13422 [COCI 2019&2020 4] Pod starim krovovima: 题解/洛谷/题解：P13422 [COCI 2019&2020 4] Pod starim krovovima.md
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
