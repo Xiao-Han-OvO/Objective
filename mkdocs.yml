@@ -1,36 +1,61 @@
-site_name: My Docs
+site_name: Objective 的文档站
 site_url: https://objective-abk.pages.dev/docs/
-copyright: © Federico Prask 2024-2025
+copyright: Copyright © 2024-2025 <a href = "https://github.com/Federico-Prask">Federico Prask</a>, Luogu <a href = "https://www.luogu.com.cn/user/734491">Objective</a>
+
+
+repo_name: 'Xiao-Han-OvO/Objective'
+repo_url: 'https://github.com/Federico-Prask'
 
 theme:
+  language: 'zh'
   name: material
+  # logo: box-fill
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
-      primary: indigo
+      primary: white
       toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode
+        name: 切换至深色模式
 
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
       primary: black
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: 切换至浅色模式
   features :
     - navigation.tabs
     - search.suggest
     - search.highlight
     - navigation.top
-  lang:
-    zh
+    - content.action.edit
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github
+    logo: 'material/school'
+  font:
+    code: 'JetBrains Mono'
+  favicon: 'favicon.ico'
 
 extra:
+  pagetime: 'on'
+  disqus: 'The Doc Site of Objective'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>'
   alternate:
     - name: 中文（简体）
       link: /
       lang: zh
+    # - name: English
+    #   link: /docs/en/
+    #   lang: en
+  social:
+    - icon: fontawesome/brands/github
+      link : https://github.com/Xiao-Han-OvO/Objective
+    # - icon: fontawesome/brands/wechat
+    #   link : 
+    # - icon: fontawesome/brands/QQ
+    #   link : 
 
 plugins:
   # - mkdocs-material-extensions
