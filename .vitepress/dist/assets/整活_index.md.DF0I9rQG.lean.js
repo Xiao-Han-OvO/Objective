@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as r,ae as n}from"./chunks/framework.Cd-3tpCq.js";const p=JSON.parse('{"title":"整活","description":"","frontmatter":{},"headers":[],"relativePath":"整活/index.md","filePath":"整活/index.md"}'),o={name:"整活/index.md"};function i(l,e,d,s,_,c){return r(),t("div",null,e[0]||(e[0]=[n("",4)]))}const f=a(o,[["render",i]]);export{p as __pageData,f as default};

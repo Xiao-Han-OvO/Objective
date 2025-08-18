@@ -21,9 +21,15 @@ export default defineConfig({
         ]
       },
       {
-        text: '文档站',
+        text: '游记',
         items: [
-          { text: '文档站', link: 'https://objective-abk.pages.dev/docs/'}
+          { text: '游记', link: 'https://objective-abk.pages.dev/docs/游记/'}
+        ]
+      },
+      {
+        text: '题解',
+        items: [
+          { text: '题解', link: 'https://objective-abk.pages.dev/docs/题解/'}
         ]
       }
     ],
@@ -31,5 +37,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Federico-Prask/Objective' }
     ]
+  },
+  
+  markdown: {
+    math: true
   }
 })

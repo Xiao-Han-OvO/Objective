@@ -1,0 +1,710 @@
+import{_ as o,c as r,o as i,j as n,ae as e,a}from"./chunks/framework.Cd-3tpCq.js";const q=JSON.parse('{"title":"2025 暑 TYOI 集训小记","description":"","frontmatter":{},"headers":[],"relativePath":"docs/docs/游记/2025 暑 TYOI 集训小记.md","filePath":"docs/docs/游记/2025 暑 TYOI 集训小记.md"}'),l={name:"docs/docs/游记/2025 暑 TYOI 集训小记.md"},s={class:"MathJax",jax:"SVG",style:{direction:"ltr",position:"relative"}},d={style:{overflow:"visible","min-height":"1px","min-width":"1px","vertical-align":"-0.566ex"},xmlns:"http://www.w3.org/2000/svg",width:"7.543ex",height:"2.262ex",role:"img",focusable:"false",viewBox:"0 -750 3334 1000","aria-hidden":"true"},p={class:"MathJax",jax:"SVG",style:{direction:"ltr",position:"relative"}},u={style:{overflow:"visible","min-height":"1px","min-width":"1px","vertical-align":"-0.566ex"},xmlns:"http://www.w3.org/2000/svg",width:"9.452ex",height:"2.262ex",role:"img",focusable:"false",viewBox:"0 -750 4178 1000","aria-hidden":"true"},m={tabindex:"0",class:"MathJax",jax:"SVG",display:"true",style:{direction:"ltr",display:"block","text-align":"center",margin:"1em 0",position:"relative"}},x={style:{overflow:"visible","min-height":"1px","min-width":"1px","vertical-align":"-1.127ex"},xmlns:"http://www.w3.org/2000/svg",width:"50.701ex",height:"5.352ex",role:"img",focusable:"false",viewBox:"0 -1867.5 22410 2365.5","aria-hidden":"true"},g={tabindex:"0",class:"MathJax",jax:"SVG",display:"true",style:{direction:"ltr",display:"block","text-align":"center",margin:"1em 0",position:"relative"}},h={style:{overflow:"visible","min-height":"1px","min-width":"1px","vertical-align":"-1.127ex"},xmlns:"http://www.w3.org/2000/svg",width:"26.838ex",height:"5.352ex",role:"img",focusable:"false",viewBox:"0 -1867.5 11862.4 2365.5","aria-hidden":"true"},f={class:"MathJax",jax:"SVG",style:{direction:"ltr",position:"relative"}},c={style:{overflow:"visible","min-height":"1px","min-width":"1px","vertical-align":"-1.127ex"},xmlns:"http://www.w3.org/2000/svg",width:"33.801ex",height:"5.352ex",role:"img",focusable:"false",viewBox:"0 -1867.5 14940 2365.5","aria-hidden":"true"};function _(k,t,y,v,w,T){return i(),r("div",null,[t[15]||(t[15]=n("h1",{id:"_2025-暑-tyoi-集训小记",tabindex:"-1"},[a("2025 暑 TYOI 集训小记 "),n("a",{class:"header-anchor",href:"#_2025-暑-tyoi-集训小记","aria-label":'Permalink to "2025 暑 TYOI 集训小记"'},"​")],-1)),t[16]||(t[16]=n("h2",{id:"day-0-2025-08-03-星期日",tabindex:"-1"},[a("Day 0 2025-08-03 星期日 "),n("a",{class:"header-anchor",href:"#day-0-2025-08-03-星期日","aria-label":'Permalink to "Day 0 2025-08-03 星期日"'},"​")],-1)),t[17]||(t[17]=n("ul",null,[n("li",null,"[x] 写游记")],-1)),t[18]||(t[18]=n("p",null,"下午 15:20 的样子到的站，结果 16:00 才上地铁（？",-1)),n("p",null,[t[4]||(t[4]=a("不是我不理解，在车上看着只是乌云，怎么一出地铁就下辣么大的雨呢 ",-1)),n("mjx-container",s,[(i(),r("svg",d,t[0]||(t[0]=[e('<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z" style="stroke-width:3;"></path></g><g data-mml-node="mo" transform="translate(389,0)"><path data-c="2299" d="M56 250Q56 394 156 488T384 583Q530 583 626 485T722 250Q722 110 625 14T390 -83Q249 -83 153 14T56 250ZM682 250Q682 322 649 387T546 497T381 542Q272 542 184 459T95 250Q95 132 178 45T389 -42Q515 -42 598 45T682 250ZM311 250Q311 285 332 304T375 328Q376 328 382 328T392 329Q424 326 445 305T466 250Q466 217 445 195T389 172Q354 172 333 195T311 250Z" style="stroke-width:3;"></path></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(1167,0)"><g data-mml-node="mo"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">﹏</text></g></g><g data-mml-node="mo" transform="translate(2167,0)"><path data-c="2299" d="M56 250Q56 394 156 488T384 583Q530 583 626 485T722 250Q722 110 625 14T390 -83Q249 -83 153 14T56 250ZM682 250Q682 322 649 387T546 497T381 542Q272 542 184 459T95 250Q95 132 178 45T389 -42Q515 -42 598 45T682 250ZM311 250Q311 285 332 304T375 328Q376 328 382 328T392 329Q424 326 445 305T466 250Q466 217 445 195T389 172Q354 172 333 195T311 250Z" style="stroke-width:3;"></path></g><g data-mml-node="mo" transform="translate(2945,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z" style="stroke-width:3;"></path></g></g></g>',1)]))),t[1]||(t[1]=n("mjx-assistive-mml",{unselectable:"on",display:"inline",style:{top:"0px",left:"0px",clip:"rect(1px, 1px, 1px, 1px)","-webkit-touch-callout":"none","-webkit-user-select":"none","-khtml-user-select":"none","-moz-user-select":"none","-ms-user-select":"none","user-select":"none",position:"absolute",padding:"1px 0px 0px 0px",border:"0px",display:"block",width:"auto",overflow:"hidden"}},[n("math",{xmlns:"http://www.w3.org/1998/Math/MathML"},[n("mo",{stretchy:"false"},"("),n("mo",null,"⊙"),n("mrow",{"data-mjx-texclass":"ORD"},[n("mo",null,"﹏")]),n("mo",null,"⊙"),n("mo",{stretchy:"false"},")")])],-1))]),t[5]||(t[5]=a("，重点是我装蚊帐的袋子还坏掉了 ",-1)),n("mjx-container",p,[(i(),r("svg",u,t[2]||(t[2]=[e('<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z" style="stroke-width:3;"></path></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(389,0)"><g data-mml-node="mo"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">╯</text></g></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(989,0)"><g data-mml-node="mo"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">▔</text></g></g><g data-mml-node="mi" transform="translate(1589,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">皿</text></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(2589,0)"><g data-mml-node="mo"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">▔</text></g></g><g data-mml-node="mo" transform="translate(3189,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z" style="stroke-width:3;"></path></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(3578,0)"><g data-mml-node="mo"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">╯</text></g></g></g></g>',1)]))),t[3]||(t[3]=n("mjx-assistive-mml",{unselectable:"on",display:"inline",style:{top:"0px",left:"0px",clip:"rect(1px, 1px, 1px, 1px)","-webkit-touch-callout":"none","-webkit-user-select":"none","-khtml-user-select":"none","-moz-user-select":"none","-ms-user-select":"none","user-select":"none",position:"absolute",padding:"1px 0px 0px 0px",border:"0px",display:"block",width:"auto",overflow:"hidden"}},[n("math",{xmlns:"http://www.w3.org/1998/Math/MathML"},[n("mo",{stretchy:"false"},"("),n("mrow",{"data-mjx-texclass":"ORD"},[n("mo",null,"╯")]),n("mrow",{"data-mjx-texclass":"ORD"},[n("mo",null,"▔")]),n("mi",{mathvariant:"normal"},"皿"),n("mrow",{"data-mjx-texclass":"ORD"},[n("mo",null,"▔")]),n("mo",{stretchy:"false"},")"),n("mrow",{"data-mjx-texclass":"ORD"},[n("mo",null,"╯")])])],-1))]),t[6]||(t[6]=a("！！！",-1))]),t[19]||(t[19]=e(`<p>晚上好煎熬，有好多 dalao 切了第二天的题目 %%%</p><p>回寝直接洗洗睡了，还有两个 TY 本校的。</p><p>??? warning &quot;后记，别看&quot; 为什么感觉学长的声音完全和长相不匹配啊啊啊啊啊啊</p><pre><code>＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ ＞﹏＜ 
+</code></pre><h2 id="day-1-2025-08-04-星期一" tabindex="-1">Day 1 2025-08-04 星期一 <a class="header-anchor" href="#day-1-2025-08-04-星期一" aria-label="Permalink to &quot;Day 1 2025-08-04 星期一&quot;">​</a></h2><p>单调队列、树状数组、倍增、并查集</p><p>很正常，但是当你注意到 1 蓝 16 紫 的时候，事情就不简单了。</p><p>哦，12 点了，我先吃个午饭。</p><p>啊木啊木啊木拌面真豪赤 难怪我小学托管班老师是广东的，味道一模一样 啊木啊木啊木啊木啊木啊木啊木</p><p>不对，粉丝先吃（我没图）</p><p>老师讲是讲了，但是听不懂听不懂听不懂</p><p>困困困困困困困困困困困困</p><p>王超吧今天晚上体育课整辣么大强度的体能训练，真的是疯了</p><p>??? abstract &quot;后记&quot; ???+ info &quot;08/05&quot; 蛙趣，昨天体锻后没有拉伸（老师没带我们做拉伸），早上起来血量上限减半，速度减半 ???+ info &quot;08/06&quot; 就算昨晚拉伸了，但是也不舒服，感觉速度又被削了，还带上了长达 29h 时长的剧毒效果。现在感觉腿是痛的。</p><p>先挂个袜子（洗了），后天再取</p><p>等会我先去食堂整点夜宵吃</p><p>啊木啊木啊木啊木</p><p>啊就像 <a href="https://www.bilibili.com/video/BV1NajgzFE9b/" target="_blank" rel="noreferrer">这样</a>。</p><p>牛肉丸真豪赤</p><h2 id="day-2-2025-08-05-星期二" tabindex="-1">Day 2 2025-08-05 星期二 <a class="header-anchor" href="#day-2-2025-08-05-星期二" aria-label="Permalink to &quot;Day 2 2025-08-05 星期二&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>先给出当天练题的题单。</p><p><a href="https://www.luogu.com.cn/training/824074" target="_blank" rel="noreferrer">上午</a></p><p>中午：哎不是怎么去晚了一丢丢就没拌面吃了 qwp</p><p><a href="https://www.luogu.com.cn/training/822377" target="_blank" rel="noreferrer">下午</a></p><p>什么是平衡树啊听不懂听不懂听不懂</p><p>什么是吉老师线段树啊听不懂听不懂听不懂</p><p>byd 第二天就往题单里塞黑题，还让不让人活了 (っ °Д °;)っ</p><p>感觉今天就在：</p><div class="language-cpp vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">cpp</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">while</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">1</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) {</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    look</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;洛谷上的帖子&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">);</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">    write</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;回复&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)；</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p>还在 gza 的帖子里<a href="https://www.luogu.com.cn/discuss/1123895?page=28" target="_blank" rel="noreferrer">开火</a>了，<a href="https://www.luogu.com.cn/discuss/1123895?page=20" target="_blank" rel="noreferrer">住了管理员楼下</a></p><p>哦对了因为 <a href="https://www.luogu.com.cn/contest/250226" target="_blank" rel="noreferrer">CZOI</a> 说有<s>奶龙</s> <strong>小游题</strong>，我去看了一眼，没切。</p><p>今晚体育课前半截搁哪跳舞，nmd 这下真成小舞萌了，c。</p><p>??? note &quot;哦对了&quot;</p><pre><code>我们跳操的时候，跳了：
+- ~~奶龙~~ **小游** 舞
+
+音乐中包含了：
+- 江南 Style
+
+还有一些不记得，啊反正只要知道成分是十分复杂的就行。
+</code></pre><h2 id="day-3-2025-08-06-星期三" tabindex="-1">Day 3 2025-08-06 星期三 <a class="header-anchor" href="#day-3-2025-08-06-星期三" aria-label="Permalink to &quot;Day 3 2025-08-06 星期三&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>事不过三······对吧？</p><p><img src="https://cdn.luogu.com.cn/upload/image_hosting/qfi6nvlk.png" alt=""></p><p><a href="https://www.luogu.com.cn/training/822388" target="_blank" rel="noreferrer">题单</a>中有一道绿题。</p>`,40)),n("mjx-container",m,[(i(),r("svg",x,t[7]||(t[7]=[e('<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" transform="scale(2.49)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mtext"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">但</text><text data-variant="normal" transform="translate(1000,0) scale(1,-1)" font-size="884px" font-family="serif">是</text><text data-variant="normal" transform="translate(2000,0) scale(1,-1)" font-size="884px" font-family="serif">对</text><text data-variant="normal" transform="translate(3000,0) scale(1,-1)" font-size="884px" font-family="serif">个</text><text data-variant="normal" transform="translate(4000,0) scale(1,-1)" font-size="884px" font-family="serif">鬼</text><text data-variant="normal" transform="translate(5000,0) scale(1,-1)" font-size="884px" font-family="serif">啊</text><text data-variant="normal" transform="translate(6000,0) scale(1,-1)" font-size="884px" font-family="serif">！</text><text data-variant="normal" transform="translate(7000,0) scale(1,-1)" font-size="884px" font-family="serif">！</text><text data-variant="normal" transform="translate(8000,0) scale(1,-1)" font-size="884px" font-family="serif">！</text></g></g></g></g></g>',1)]))),t[8]||(t[8]=n("mjx-assistive-mml",{unselectable:"on",display:"block",style:{top:"0px",left:"0px",clip:"rect(1px, 1px, 1px, 1px)","-webkit-touch-callout":"none","-webkit-user-select":"none","-khtml-user-select":"none","-moz-user-select":"none","-ms-user-select":"none","user-select":"none",position:"absolute",padding:"1px 0px 0px 0px",border:"0px",display:"block",overflow:"hidden",width:"100%"}},[n("math",{xmlns:"http://www.w3.org/1998/Math/MathML",display:"block"},[n("mstyle",{mathsize:"2.49em"},[n("mrow",{"data-mjx-texclass":"ORD"},[n("mtext",null,"但是对个鬼啊！！！")])])])],-1))]),t[20]||(t[20]=n("p",null,"那道绿题，是",-1)),n("mjx-container",g,[(i(),r("svg",h,t[9]||(t[9]=[e('<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" transform="scale(2.49)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z" style="stroke-width:3;"></path><path data-c="44" d="M130 622Q123 629 119 631T103 634T60 637H27V683H228Q399 682 419 682T461 676Q504 667 546 641T626 573T685 470T708 336Q708 210 634 116T442 3Q429 1 228 0H27V46H60Q102 47 111 49T130 61V622ZM593 338Q593 439 571 501T493 602Q439 637 355 637H322H294Q238 637 234 628Q231 624 231 344Q231 62 232 59Q233 49 248 48T339 46H350Q456 46 515 95Q561 133 577 191T593 338Z" transform="translate(722,0)" style="stroke-width:3;"></path><path data-c="51" d="M56 341Q56 499 157 602T388 705Q521 705 621 601T722 341Q722 275 703 218T660 127T603 63T555 25T525 9Q524 8 524 8H523Q524 5 526 -1T537 -21T555 -47T581 -67T615 -76Q653 -76 678 -56T706 -3Q707 10 716 10Q721 10 728 5L727 -13Q727 -88 697 -140T606 -193Q563 -193 538 -166T498 -83Q483 -23 483 -8L471 -11Q459 -14 435 -18T388 -22Q254 -22 155 81T56 341ZM607 339Q607 429 586 496T531 598T461 649T390 665T318 649T248 598T192 496T170 339Q170 143 277 57Q301 39 305 39L304 42Q304 44 304 46Q301 53 301 68Q301 101 325 128T391 155Q454 155 495 70L501 58Q549 91 578 164Q607 234 607 339ZM385 18Q404 18 425 23T459 33T472 40Q471 47 468 57T449 88T412 115Q398 117 386 117Q367 117 353 102T338 67Q338 48 351 33T385 18Z" transform="translate(1486,0)" style="stroke-width:3;"></path><path data-c="20" d="" transform="translate(2264,0)" style="stroke-width:3;"></path><path data-c="20" d="" transform="translate(2514,0)" style="stroke-width:3;"></path><text data-variant="normal" transform="translate(2764,0) scale(1,-1)" font-size="884px" font-family="serif">分</text><text data-variant="normal" transform="translate(3764,0) scale(1,-1)" font-size="884px" font-family="serif">治</text></g></g></g></g></g>',1)]))),t[10]||(t[10]=n("mjx-assistive-mml",{unselectable:"on",display:"block",style:{top:"0px",left:"0px",clip:"rect(1px, 1px, 1px, 1px)","-webkit-touch-callout":"none","-webkit-user-select":"none","-khtml-user-select":"none","-moz-user-select":"none","-ms-user-select":"none","user-select":"none",position:"absolute",padding:"1px 0px 0px 0px",border:"0px",display:"block",overflow:"hidden",width:"100%"}},[n("math",{xmlns:"http://www.w3.org/1998/Math/MathML",display:"block"},[n("mstyle",{mathsize:"2.49em"},[n("mrow",{"data-mjx-texclass":"ORD"},[n("mtext",null,"CDQ 分治")])])])],-1))]),t[21]||(t[21]=e(`<p>我玩 nm，wdnmd！c，不玩了。</p><p>回到出题组，配数据去了。配了一下午 + 一晚上，一道垃圾小题目由于我不想写高精终于被我配好了（赛题暂不公开）</p><p>哦对了，晚上有体育课，这次晚上老师让我们打八段锦（？<br> 呆在那里，像极了体育馆里在某一种盛大的宗教盛会（？<br> 重点是，打完太极之后又化身小舞萌（？？？<br> 然后，由于我们是 B 班，然后又去打跆拳道（？？？？？</p><p>??? tips &quot;tips&quot;</p><pre><code>打跆拳道是从周一晚上开始的，虽然正常，但是成分复杂。
+</code></pre><p>嗯，好一个综合全面发展！</p><h2 id="day-4-2025-08-07-星期四" tabindex="-1">Day 4 2025-08-07 星期四 <a class="header-anchor" href="#day-4-2025-08-07-星期四" aria-label="Permalink to &quot;Day 4 2025-08-07 星期四&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>莫队是干什么用的 awa？</p><p>怎么就这么写出来了 awa？</p><p>为什么要分块 awa？</p><p>等会分块是什么 awa？</p><p><a href="https://www.bilibili.com/video/BV15T41157Xg" target="_blank" rel="noreferrer">A Few Moments Later...</a></p><p>诶什么，二分？那不有手就行！</p><p>wc 这像是二分吗？</p><p>补兑，整体二分，整体二分是啥？</p><p>哦就是一起二分搜了。</p><p>那怎么搜呢 awa</p><p>wdnmd 我听不懂啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！！！！！！！！！！！！！！！！！！</p><p><a href="https://www.bilibili.com/video/BV1F3ZFYUEMv" target="_blank" rel="noreferrer">我想干但没干成的事情</a></p><h2 id="day-5-2025-08-08-星期五" tabindex="-1">Day 5 2025-08-08 星期五 <a class="header-anchor" href="#day-5-2025-08-08-星期五" aria-label="Permalink to &quot;Day 5 2025-08-08 星期五&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>平衡树听起来是十分舒服的✌</p><p>（大概原因是换了个学长讲课吧，hhh</p><p>今天还抢了个首解（<a href="https://www.luogu.com.cn/problem/P3835" target="_blank" rel="noreferrer">【模版】可持久化平衡树</a>）</p><p>然后把它一起整合成了数据结构，想看我的 std 的自己看，不想看的略过谢谢。</p><p>??? danger &quot;这几天的数据结构（不建议展开）&quot; \`\`\`cpp /* * @file std-datastruct.cpp * @author Federico Prask * @time 2025-08-08 */</p><pre><code>#include &lt;bits/stdc++.h&gt;
+#define file(s) \\
+    std::freopen(#s&quot;.in&quot;, &quot;r&quot;, stdin), std::freopen(#s&quot;.out&quot;, &quot;w&quot;, stdout)
+
+using i64 = long long;
+using ull = unsigned long long;
+using f32 = double;
+using ldb = long double;
+
+namespace trix{
+    inline int readint() {
+        register int x = 0, sign = 1;
+        register char ch = getchar();
+        for (; !isdigit(ch); ch = getchar()) {
+            if (ch == &#39;-&#39;) {    
+                sign = -1;
+            }
+            if (ch == EOF) {
+                return EOF;
+            }
+        }
+        for (; isdigit(ch); ch = getchar()) {
+            x = x * 10 + ch - &#39;0&#39;;
+        }
+        return x * sign;
+    }
+    inline i64 readi64() {
+        register i64 x = 0, sign = 1;
+        register char ch = getchar();
+        for (; !isdigit(ch); ch = getchar()) {
+            if (ch == &#39;-&#39;) {    
+                sign = -1;
+            }
+            if (ch == EOF) {
+                return EOF;
+            }
+        }
+        for (; isdigit(ch); ch = getchar()) {
+            x = x * 10 + ch - &#39;0&#39;;
+        }
+        return x * sign;
+    }
+    inline char readchar() {
+        register char ch = getchar();
+        for (; ch == &#39; &#39; || ch == &#39;\\n&#39;; ch = getchar()) {
+            continue;
+        }
+        return ch;
+    }
+}
+
+namespace DataStruct {
+    // Segment-Tree
+    template&lt;int _N&gt;
+    class Segment_Tree_Segadd {
+        struct binary_tree {
+            i64 left_son = 0, right_son = 0;
+            i64 value = 0, addition = 0;
+        } node[_N &lt;&lt; 2];
+        i64 *a;
+        
+        public:
+            void build_tree(i64 n, i64 *_a) {
+                a = _a;
+                _build_tree(1, 1, n);
+            }
+            void update(i64 l, i64 r, i64 val) {
+                if (l &gt; r) return;
+                _update(1, l, r, val);
+            }
+            i64 query(i64 l, i64 r) {
+                if (l &gt; r) return 0;
+                return _query(1, l, r);
+            }
+            
+        private:
+            void pushup(i64 x) {
+                node[x].value = node[x &lt;&lt; 1].value + node[(x &lt;&lt; 1) | 1].value;
+            }
+            void pushdown(i64 x) {
+                if (node[x].addition) {
+                    i64 left = x &lt;&lt; 1;
+                    i64 right = (x &lt;&lt; 1) | 1;
+                    i64 len_left = node[left].right_son - node[left].left_son + 1;
+                    i64 len_right = node[right].right_son - node[right].left_son + 1;
+                    
+                    node[left].addition += node[x].addition;
+                    node[right].addition += node[x].addition;
+                    node[left].value += node[x].addition * len_left;
+                    node[right].value += node[x].addition * len_right;
+                    node[x].addition = 0;
+                }
+            }
+            void _build_tree(i64 x, i64 l, i64 r) {
+                node[x].left_son = l;
+                node[x].right_son = r;
+                node[x].addition = 0;
+                if (l == r) {
+                    node[x].value = a[l];
+                    return;
+                }
+                i64 mid = (l + r) &gt;&gt; 1;
+                _build_tree(x &lt;&lt; 1, l, mid);
+                _build_tree((x &lt;&lt; 1) | 1, mid + 1, r);
+                pushup(x);
+            }
+            void _update(i64 now, i64 l, i64 r, i64 k) {
+                if (l &lt;= node[now].left_son &amp;&amp; r &gt;= node[now].right_son) {
+                    node[now].value += k * (node[now].right_son - node[now].left_son + 1);
+                    node[now].addition += k;
+                    return;
+                }
+                
+                pushdown(now);
+                i64 mid = (node[now].left_son + node[now].right_son) &gt;&gt; 1;
+                if (l &lt;= mid) _update(now &lt;&lt; 1, l, r, k);
+                if (r &gt; mid) _update((now &lt;&lt; 1) | 1, l, r, k);
+                pushup(now);
+            }
+            i64 _query(i64 x, i64 l, i64 r) {
+                if (l &lt;= node[x].left_son &amp;&amp; node[x].right_son &lt;= r) {
+                    return node[x].value;
+                }
+                pushdown(x);
+                i64 mid = (node[x].left_son + node[x].right_son) &gt;&gt; 1;
+                i64 sum = 0;
+                if (l &lt;= mid) {
+                    sum += _query(x &lt;&lt; 1, l, r);
+                }
+                if (r &gt; mid) {
+                    sum += _query((x &lt;&lt; 1) | 1, l, r);
+                }
+                return sum;
+            }
+        };
+
+    // Segment-Tree for Range Cover (with Range Query)
+    template&lt;int _N&gt;
+    class Segment_Tree_Segcover {
+        struct binary_tree {
+            i64 left_son = 0, right_son = 0;
+            i64 value = 0, cover = 0;
+            bool has_cover = false;
+        } node[_N &lt;&lt; 2];
+        i64 *a;
+        
+        public:
+            void build_tree(i64 n, i64 *_a) {
+                a = _a;
+                _build_tree(1, 1, n);
+            }
+            void update(i64 l, i64 r, i64 val) {
+                if (l &gt; r) return;
+                _update(1, l, r, val);
+            }
+            i64 query(i64 l, i64 r) {
+                if (l &gt; r) return 0;
+                return _query(1, l, r);
+            }
+            
+        private:
+            void pushup(i64 x) {
+                node[x].value = node[x &lt;&lt; 1].value + node[(x &lt;&lt; 1) | 1].value;
+            }
+            void pushdown(i64 x) {
+                if (node[x].has_cover) {
+                    i64 left = x &lt;&lt; 1;
+                    i64 right = (x &lt;&lt; 1) | 1;
+                    i64 len_left = node[left].right_son - node[left].left_son + 1;
+                    i64 len_right = node[right].right_son - node[right].left_son + 1;
+                    
+                    node[left].cover = node[x].cover;
+                    node[right].cover = node[x].cover;
+                    node[left].value = node[x].cover * len_left;
+                    node[right].value = node[x].cover * len_right;
+                    node[left].has_cover = true;
+                    node[right].has_cover = true;
+                    
+                    node[x].has_cover = false;
+                }
+            }
+            void _build_tree(i64 x, i64 l, i64 r) {
+                node[x].left_son = l;
+                node[x].right_son = r;
+                node[x].has_cover = false;
+                if (l == r) {
+                    node[x].value = a[l];
+                    return;
+                }
+                i64 mid = (l + r) &gt;&gt; 1;
+                _build_tree(x &lt;&lt; 1, l, mid);
+                _build_tree((x &lt;&lt; 1) | 1, mid + 1, r);
+                pushup(x);
+            }
+            void _update(i64 now, i64 l, i64 r, i64 k) {
+                if (l &lt;= node[now].left_son &amp;&amp; r &gt;= node[now].right_son) {
+                    node[now].value = k * (node[now].right_son - node[now].left_son + 1);
+                    node[now].cover = k;
+                    node[now].has_cover = true;
+                    return;
+                }
+                
+                pushdown(now);
+                i64 mid = (node[now].left_son + node[now].right_son) &gt;&gt; 1;
+                if (l &lt;= mid) _update(now &lt;&lt; 1, l, r, k);
+                if (r &gt; mid) _update((now &lt;&lt; 1) | 1, l, r, k);
+                pushup(now);
+            }
+            i64 _query(i64 x, i64 l, i64 r) {
+                if (l &lt;= node[x].left_son &amp;&amp; node[x].right_son &lt;= r) {
+                    return node[x].value;
+                }
+                pushdown(x);
+                i64 mid = (node[x].left_son + node[x].right_son) &gt;&gt; 1;
+                i64 sum = 0;
+                if (l &lt;= mid) {
+                    sum += _query(x &lt;&lt; 1, l, r);
+                }
+                if (r &gt; mid) {
+                    sum += _query((x &lt;&lt; 1) | 1, l, r);
+                }
+                return sum;
+            }
+    };
+    
+    // Treap
+    class Treap {
+        // define a binary tree using arrays
+        static const int MN = 2100005;
+        int l[MN], r[MN];
+        int value[MN], rand_val[MN], sz[MN], w[MN];
+        int nans, size;
+        int root;
+
+        public:
+            Treap() : root(0), size(0), nans(0) {
+                std::memset(l, 0, sizeof(l));
+                std::memset(r, 0, sizeof(r));
+                std::srand(std::time(0));
+            }
+            int qrnk(int x) {
+                return queryrank(root, x);
+            }
+            int qnum(int x) {
+                return querynum(root, x);
+            }
+            int qpre(int x) {
+                nans = 0;
+                querypre(root, x);
+                return nans ? value[nans] : -2147483647;
+            }
+            int qsub(int x) {
+                nans = 0;
+                querysub(root, x);
+                return nans ? value[nans] : 2147483647;
+            }
+            void del(int x) {
+                _delete(root, x);
+            }
+            void ins(int x) {
+                _insert(root, x);
+            }
+
+        private:
+            void pushup(int x) {
+                sz[x] = sz[l[x]] + sz[r[x]] + w[x];
+            }
+            void left_rotate(int &amp;k) {
+                int t = r[k];
+                r[k] = l[t];
+                l[t] = k;
+                sz[t] = sz[k];
+                pushup(k);
+                k = t;
+            }
+            void right_rotate(int &amp;k) {
+                int t = l[k];
+                l[k] = r[t];
+                r[t] = k;
+                sz[t] = sz[k];
+                pushup(k);
+                k = t;
+            }
+            void _insert(int &amp;k, int x) {
+                if (!k) {
+                    size++;
+                    k = size;
+                    sz[k] = 1;
+                    w[k] = 1;
+                    value[k] = x;
+                    rand_val[k] = rand();
+                    return;
+                }
+                sz[k]++;
+                if (value[k] == x) {
+                    w[k]++;
+                } else if (value[k] &lt; x) {
+                    _insert(r[k], x);
+                    if (rand_val[r[k]] &lt; rand_val[k]) {
+                        left_rotate(k);
+                    }
+                } else {
+                    _insert(l[k], x);
+                    if (rand_val[l[k]] &lt; rand_val[k]) {
+                        right_rotate(k);
+                    }
+                }
+            }
+            bool _delete(int &amp;k, int x) {
+                if (!k) {
+                    return false;
+                }
+                if (value[k] == x) {
+                    if (w[k] &gt; 1) {
+                        w[k]--;
+                        sz[k]--;
+                        return true;
+                    }
+                    if (l[k] == 0 || r[k] == 0) {
+                        k = l[k] + r[k];
+                        return true;
+                    } else if (rand_val[l[k]] &lt; rand_val[r[k]]) {
+                        right_rotate(k);
+                        return _delete(k, x);
+                    } else {
+                        left_rotate(k);
+                        return _delete(k, x);
+                    }
+                } else if (value[k] &lt; x) {
+                    bool succ = _delete(r[k], x);
+                    if (succ) {
+                        sz[k]--;
+                    }
+                    return succ;
+                } else {
+                    bool succ = _delete(l[k], x);
+                    if (succ) {
+                        sz[k]--;
+                    }
+                    return succ;
+                }
+            }
+            int queryrank(int k, int x) {
+                if (!k) {
+                    return 1;  // Return 1 if empty
+                }
+                if (value[k] == x) {
+                    return sz[l[k]] + 1;
+                } else if (x &gt; value[k]) {
+                    return sz[l[k]] + w[k] + queryrank(r[k], x);
+                } else {
+                    return queryrank(l[k], x);
+                }
+            }
+            int querynum(int k, int x) {
+                if (!k) {
+                    return 0;
+                }
+                if (x &lt;= sz[l[k]]) {
+                    return querynum(l[k], x);
+                }
+                else if (x &gt; sz[l[k]] + w[k]) {
+                    return querynum(r[k], x - sz[l[k]] - w[k]);
+                }
+                else {
+                    return value[k];
+                }
+            }
+            void querypre(int k, int x) {
+                if (!k) {
+                    return;
+                }
+                if (value[k] &lt; x) {
+                    nans = k;
+                    querypre(r[k], x);
+                }
+                else {
+                    querypre(l[k], x);
+                }
+            }
+            void querysub(int k, int x) {
+                if (!k) {
+                    return;
+                }
+                if (value[k] &gt; x) {
+                    nans = k;
+                    querysub(l[k], x);
+                }
+                else {
+                    querysub(r[k], x);
+                }
+            }
+    };
+
+    // FHQ-Treap (Non-rotating Treap)
+    class FHQTreap {
+        static const int MN = 2100005;
+        int l[MN], r[MN];
+        int value[MN], rand_val[MN], sz[MN];
+        int cnt, root;
+
+        public:
+            FHQTreap() : root(0), cnt(0) {
+                std::memset(l, 0, sizeof(l));
+                std::memset(r, 0, sizeof(r));
+                std::srand(std::time(0));
+            }
+            void ins(int x) {
+                int a, b;
+                split(root, x, a, b);
+                root = merge(merge(a, new_node(x)), b);
+            }
+            void del(int x) {
+                int a, b, c;
+                split(root, x, a, b);
+                split(b, x + 1, b, c);
+                if (b) {
+                    b = merge(l[b], r[b]);
+                }
+                root = merge(merge(a, b), c);
+            }
+            int qrnk(int x) {
+                int a, b;
+                split(root, x - 1, a, b);
+                int res = sz[a] + 1;
+                root = merge(a, b);
+                return res;
+            }
+            int qnum(int k) {
+                return kth(root, k);
+            }
+            int qpre(int x) {
+                int a, b;
+                split(root, x - 1, a, b);
+                int res = kth(a, sz[a]);
+                root = merge(a, b);
+                return res;
+            }
+            int qsub(int x) {
+                int a, b;
+                split(root, x, a, b);
+                int res = kth(b, 1);
+                root = merge(a, b);
+                return res;
+            }
+
+        private:
+            int new_node(int x) {
+                cnt++;
+                value[cnt] = x;
+                rand_val[cnt] = rand();
+                sz[cnt] = 1;
+                return cnt;
+            }
+            void pushup(int x) {
+                sz[x] = sz[l[x]] + sz[r[x]] + 1;
+            }
+            void split(int now, int k, int &amp;x, int &amp;y) {
+                if (!now) {
+                    x = y = 0;
+                    return;
+                }
+                if (value[now] &lt;= k) {
+                    x = now;
+                    split(r[now], k, r[now], y);
+                } else {
+                    y = now;
+                    split(l[now], k, x, l[now]);
+                }
+                pushup(now);
+            }
+            int merge(int x, int y) {
+                if (!x || !y) {
+                    return x | y;
+                }
+                if (rand_val[x] &lt; rand_val[y]) {
+                    r[x] = merge(r[x], y);
+                    pushup(x);
+                    return x;
+                } else {
+                    l[y] = merge(x, l[y]);
+                    pushup(y);
+                    return y;
+                }
+            }
+            int kth(int now, int k) {
+                while (true) {
+                    if (k &lt;= sz[l[now]]) {
+                        now = l[now];
+                    } else if (k == sz[l[now]] + 1) {
+                        return value[now];
+                    } else {
+                        k -= sz[l[now]] + 1;
+                        now = r[now];
+                    }
+                }
+            }
+    };
+
+    // Persistent FHQ-Treap (Non-rotating Treap)
+    class PersistentFHQTreap {
+        static const int MN = 5e5 + 10;
+        static const int INF = 2147483647;
+        struct Node {
+            int l, r;
+            int val, key;
+            int size;
+        } t[MN * 50];
+
+        public:
+            int root[MN], cnt;
+            PersistentFHQTreap() : cnt(0) {
+                std::fill(root, root + MN, 0);
+                std::srand(std::time(0));
+            }
+            void insert(int ver, int new_ver, int val) {
+                root[new_ver] = root[ver];
+                int x, y;
+                split(root[new_ver], val, x, y);
+                root[new_ver] = merge(merge(x, new_node(val)), y);
+            }
+            void remove(int ver, int new_ver, int val) {
+                root[new_ver] = root[ver];
+                int x, y, z;
+                split(root[new_ver], val, x, z);
+                split(x, val - 1, x, y);
+                if (y) y = merge(t[y].l, t[y].r);
+                root[new_ver] = merge(merge(x, y), z);
+            }
+            int get_rank(int ver, int val) {
+                int x, y;
+                split(root[ver], val - 1, x, y);
+                int res = t[x].size + 1;
+                root[ver] = merge(x, y);
+                return res;
+            }
+            int get_val(int ver, int rank) {
+                return _get_val(root[ver], rank);
+            }
+            int get_prev(int ver, int val) {
+                int x, y;
+                split(root[ver], val - 1, x, y);
+                if (!x) return -INF + 1;
+                int res = _get_val(x, t[x].size);
+                root[ver] = merge(x, y);
+                return res;
+            }
+            int get_next(int ver, int val) {
+                int x, y;
+                split(root[ver], val, x, y);
+                if (!y) return INF;
+                int res = _get_val(y, 1);
+                root[ver] = merge(x, y);
+                return res;
+            }
+
+        private:
+            int new_node(int val) {
+                t[++cnt] = {0, 0, val, rand(), 1};
+                return cnt;
+            }
+            int clone(int p) {
+                if (!p) return 0;
+                t[++cnt] = t[p];
+                return cnt;
+            }
+            void pushup(int p) {
+                t[p].size = t[t[p].l].size + t[t[p].r].size + 1;
+            }
+            void split(int p, int val, int &amp;x, int &amp;y) {
+                if (!p) {
+                    x = y = 0;
+                    return;
+                }
+                p = clone(p);
+                if (t[p].val &lt;= val) {
+                    x = p;
+                    split(t[x].r, val, t[x].r, y);
+                } else {
+                    y = p;
+                    split(t[y].l, val, x, t[y].l);
+                }
+                pushup(p);
+            }
+            int merge(int x, int y) {
+                if (!x || !y) return x | y;
+                if (t[x].key &lt; t[y].key) {
+                    x = clone(x);
+                    t[x].r = merge(t[x].r, y);
+                    pushup(x);
+                    return x;
+                } else {
+                    y = clone(y);
+                    t[y].l = merge(x, t[y].l);
+                    pushup(y);
+                    return y;
+                }
+            }
+            int _get_val(int p, int rank) {
+                while (true) {
+                    if (rank &lt;= t[t[p].l].size) {
+                        p = t[p].l;
+                    } else if (rank == t[t[p].l].size + 1) {
+                        return t[p].val;
+                    } else {
+                        rank -= t[t[p].l].size + 1;
+                        p = t[p].r;
+                    }
+                }
+            }
+    };
+}// namespace datastruct
+
+constexpr int M = 1e6;
+
+using trix::readint;
+
+int main() {
+    #ifdef FILEIO
+    file(std-datastruct);
+    #endif
+
+    #ifdef CPPIO
+    std::cin.tie(0) -&gt; sync_with_stdio(0);
+    #endif
+
+    /* Code Here. */
+
+    return 0;
+}
+\`\`\`
+</code></pre><p>哎不是，明天怎么还有测试啊，那我不炸了吗。</p><p>??? warning &quot;别看&quot; 今天晚上跑步是跑了我们学校第一，但是吧，跑前多喝了点水，就在胃里摇啊摇啊摇，导致跑完之后有点难受<br> 呕呕呕呕呕yueyueyueyueyue</p><pre><code>而且我们今天打跆拳道还不在馆内打，在室外。今天大太阳照了一天，晚上外面运动要热死了
+</code></pre><p>对了，别问今天游记为什么这么短，因为我封装的数据结构太长了，也花费太多时间了，就没时间写了。</p><h2 id="day-6-2025-08-09-星期六" tabindex="-1">Day 6 2025-08-09 星期六 <a class="header-anchor" href="#day-6-2025-08-09-星期六" aria-label="Permalink to &quot;Day 6 2025-08-09 星期六&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>???+ tip &quot;注意到&quot; 今天不考试了，延期了，今天做题，昨天的题抢到了 rank #2</p><p>晚上出去吃的，吃的什么瘦肉牛丸粿条，还不错，就是有点贵。</p><p>晚上买了杯瑞幸（不是广子也不是咖啡，点的奶茶），感觉还行，但是我很 unhappy 的一点就是我没有看到茶百道，不然我去点茶百道了。</p><p>今天过得一般般。</p><h2 id="day-7-2025-08-10-星期日" tabindex="-1">Day 7 2025-08-10 星期日 <a class="header-anchor" href="#day-7-2025-08-10-星期日" aria-label="Permalink to &quot;Day 7 2025-08-10 星期日&quot;">​</a></h2><ul><li>[ ] 写游记</li></ul><p>今天去了一趟后面忘了。</p>`,41)),n("p",null,[t[13]||(t[13]=a('???+ tip "看了一眼参观指南想起来了" 今天去了一趟 ',-1)),n("mjx-container",f,[(i(),r("svg",c,t[11]||(t[11]=[e('<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mstyle" transform="scale(2.49)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">广</text></g><g data-mml-node="mi" transform="translate(1000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">东</text></g><g data-mml-node="mi" transform="translate(2000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">科</text></g><g data-mml-node="mi" transform="translate(3000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">学</text></g><g data-mml-node="mi" transform="translate(4000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">中</text></g><g data-mml-node="mi" transform="translate(5000,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">心</text></g></g></g></g></g>',1)]))),t[12]||(t[12]=n("mjx-assistive-mml",{unselectable:"on",display:"inline",style:{top:"0px",left:"0px",clip:"rect(1px, 1px, 1px, 1px)","-webkit-touch-callout":"none","-webkit-user-select":"none","-khtml-user-select":"none","-moz-user-select":"none","-ms-user-select":"none","user-select":"none",position:"absolute",padding:"1px 0px 0px 0px",border:"0px",display:"block",width:"auto",overflow:"hidden"}},[n("math",{xmlns:"http://www.w3.org/1998/Math/MathML"},[n("mstyle",{mathsize:"2.49em"},[n("mrow",{"data-mjx-texclass":"ORD"},[n("mi",{mathvariant:"normal"},"广"),n("mi",{mathvariant:"normal"},"东"),n("mi",{mathvariant:"normal"},"科"),n("mi",{mathvariant:"normal"},"学"),n("mi",{mathvariant:"normal"},"中"),n("mi",{mathvariant:"normal"},"心")])])])],-1))]),t[14]||(t[14]=a("。",-1))]),t[22]||(t[22]=e(`<pre><code>发现文创店里好多瑕疵品，所以没买。
+
+他的一些节气海报还挺好看的，具体详见我的微信朋友圈。
+</code></pre><h2 id="day-8-2025-08-11-星期一" tabindex="-1">Day 8 2025-08-11 星期一 <a class="header-anchor" href="#day-8-2025-08-11-星期一" aria-label="Permalink to &quot;Day 8 2025-08-11 星期一&quot;">​</a></h2><ul><li>[ ] 写游记</li></ul><p>忘记写了，忘了。</p><h2 id="day-9-2025-08-12-星期二" tabindex="-1">Day 9 2025-08-12 星期二 <a class="header-anchor" href="#day-9-2025-08-12-星期二" aria-label="Permalink to &quot;Day 9 2025-08-12 星期二&quot;">​</a></h2><ul><li>[ ] 写游记</li></ul><p>忘记写了，基本忘了。</p><p>??? danger &quot;千万&quot; ??? danger &quot;千万&quot; ??? danger &quot;要记住&quot; ??? danger &quot;打球&quot; ??? danger &quot;之前&quot; ??? danger &quot;要看&quot; ??? danger &quot;拍子的&quot; ??? danger &quot;质量&quot; ??? danger &quot;不然&quot; ??? danger &quot;你&quot; ??? danger &quot;可能会&quot; ??? danger &quot;遇到&quot; ??? danger &quot;挥拍&quot; ??? danger &quot;之后&quot; ??? danger &quot;拍子&quot; ??? danger &quot;飞了&quot; ??? danger &quot;十几米&quot; ??? danger &quot;远&quot; ??? danger &quot;然后&quot; ??? danger &quot;撞到&quot; ??? danger &quot;墙壁&quot; ??? danger &quot;掉下了&quot; ??? danger &quot;楼&quot; （虽然是 zqh 干的但我还是热心的提醒一下大家）</p><p><s>很好的嵌套使我的大脑旋转。</s></p><h2 id="day-10-2025-08-13-星期三" tabindex="-1">Day 10 2025-08-13 星期三 <a class="header-anchor" href="#day-10-2025-08-13-星期三" aria-label="Permalink to &quot;Day 10 2025-08-13 星期三&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p><strong>上午</strong></p><p>睡觉，使得我的鼠标垫湿了（我出一身汗）</p><p>??? question &quot;我不李姐&quot; 总是有一些时候睡觉出特别多的汗，但是晚上从来不出。</p><p><strong>下午</strong></p><p>很好的洛谷月赛，证明 T1 的正解的正确性使我的大脑翻转（本来准备今晚写的）。</p><p><strong>晚上</strong></p><p>听歌写游记。</p><p>体育课打乒乓发现地形崎岖，<s>一看就是丘陵地形</s>。</p><h2 id="day-11-2025-08-14-星期四" tabindex="-1">Day 11 2025-08-14 星期四 <a class="header-anchor" href="#day-11-2025-08-14-星期四" aria-label="Permalink to &quot;Day 11 2025-08-14 星期四&quot;">​</a></h2><ul><li>[ ] 写游记</li></ul><h2 id="day-12-2025-08-15-星期五" tabindex="-1">Day 12 2025-08-15 星期五 <a class="header-anchor" href="#day-12-2025-08-15-星期五" aria-label="Permalink to &quot;Day 12 2025-08-15 星期五&quot;">​</a></h2><ul><li>[x] 写游记</li><li>[x] 开发网站</li></ul><p>网站做的不错</p><p>但是我是唐比，做网站的时候把我以前的项目删掉了（输入的命令清空了文件夹才配置的架构）</p><p>需要找个时间修一下。</p><p><a href="https://lsoi.pages.dev" target="_blank" rel="noreferrer">链接</a></p><p>晚自习稍微加了个新功能，也就是网站的“关于”部分。</p><p>之后会慢慢加功能的。</p><h2 id="day-13-2025-08-16-星期六" tabindex="-1">Day 13 2025-08-16 星期六 <a class="header-anchor" href="#day-13-2025-08-16-星期六" aria-label="Permalink to &quot;Day 13 2025-08-16 星期六&quot;">​</a></h2><ul><li>[x] 写游记</li></ul><p>上午测了个试，运气好拿了个 rank #1</p><p>??? quote &quot;总结（别看，反正就是我是人机）&quot; 重要的事情说三遍</p><pre><code>省流：我是人机，我太菜了，我是蒟蒻
+
+省流：我是人机，我太菜了，我是蒟蒻
+
+省流：我是人机，我太菜了，我是蒟蒻
+
+虽然，
+
+![](https://cdn.luogu.com.cn/upload/image_hosting/fb8klhdq.png)
+
+但是你仔细看看，
+
+$\\because$
+
+![](https://cdn.luogu.com.cn/upload/image_hosting/6wx105dv.png)
+
+$\\therefore$
+
+我今天下午上机，电脑炸了 5 次，有三次我强制重启了，剩下的两次我狂按 $\\text{Alt + F4}$ 把窗口关掉了。
+
+&gt; tips: 我猜这电脑有内存泄漏，而且虚拟内存剧小，使得我总是容易内存爆栈。
+
+~~T1 没过~~，签到题没过说明我太菜了，没有写出正解，看来我的刷题量还是太少了 ![](https://cdn.luogu.com.cn/upload/image_hosting/xp7iboxe.png)。
+
+T2 正常解出来，显然切 T2 的人还是特别多的。
+
+T3 太惊险了，自己看提交时间吧。
+
+![](https://cdn.luogu.com.cn/upload/image_hosting/nv5dwkoy.png)
+
+显然，我还是太菜了，dp 学的不行，就是个废物。
+
+而且代码还有人认为是人机（AI）。
+
+不过确实，当时注意到容易炸（最开始写的用了四维数组，算了下内存占用，要 4 个 GB，所以后来用了 \`vector\`，使得我的代码非常抽象）
+
+（以后会改的）
+
+&gt; \`\`\`cpp
+&gt; std::vector&lt;std::vector&lt;std::vector&lt;int&gt;&gt;&gt; dp(
+&gt;         a + 1, std::vector&lt;std::vector&lt;int&gt;&gt;(
+&gt;             b + 1, std::vector&lt;int&gt;(c + 1, INF)));
+&gt; \`\`\`
+
+（我也觉得挺狗屎，不过顺便给大家看我一位学长的逆天操作就会觉得这世间是有人上人的）
+
+（还是 Vim 大佬）
+
+&gt; ![](https://cdn.luogu.com.cn/upload/image_hosting/l3h8016s.png)
+&gt; ![](https://cdn.luogu.com.cn/upload/image_hosting/bebem32k.png)
+
+（事后他发现 \`vector\` 让他 TLE 了）
+
+做 T5 时很庆幸前一天晚上找我的学长复习了以下可持久化数据结构，所以今天~~打~~使用我之前的主席树板子还是挺顺畅的。
+
+T6 的淀粉质我不会，啊所以还是我太菜了，加上超长码量我肯定是想不出来的，（赛时也肯定写不出来）。
+
+不过写 T6 的时候时间不多了，所以我光速打了个暴搜跑路了（很好的拿下了 Subtask 1）
+
+显然我运气还是很好的，混了个 505 的 rank #1，~~没想到这么蒟蒻也配拿 rank #1~~。
+
+~~咦原来橙漫山茶花就是直接把不去皮的橙子放进去吗~~
+</code></pre><p>晚上和学长出去吃了个饭，<s>还偷偷很同学打电话聊了会天</s>。</p><p>哦对了，还打了会 Phi。</p><h2 id="day-14-2025-08-17-星期日" tabindex="-1">Day 14 2025-08-17 星期日 <a class="header-anchor" href="#day-14-2025-08-17-星期日" aria-label="Permalink to &quot;Day 14 2025-08-17 星期日&quot;">​</a></h2><p>显然，我们四个拥有具有游戏属性的设备的人中，有三个都是玩三角洲的。</p><p>所以他们三个从早上吃完饭就开始赖着打三角洲。</p><p>上午的计划是去中山大学。</p><p>逛完博物馆吧，待在他的文创店，看到插头又是直接开玩，直接给干到了闭馆时间，工作人员要求我们 <strong><s>滚</s></strong> 离开。</p><p>下午待在寝室，同学发了道高中数学题过来，被我秒了。</p><p>（但是晚上听讲座没事干还是去写了一份详细证明）</p><p>哦晚上联合去打白复生 IN Lv.16 了，我们几个真厉害（一前面一结尾一旁观），打出了 10 G 的好成绩（原来没有 FC）。</p><h2 id="day-15-2025-08-18-星期一" tabindex="-1">Day 15 2025-08-18 星期一 <a class="header-anchor" href="#day-15-2025-08-18-星期一" aria-label="Permalink to &quot;Day 15 2025-08-18 星期一&quot;">​</a></h2><ul><li>[x] 写游记</li><li>[x] 修复文档站</li></ul><p>咦 @ImposterAnYu 晚上 0 点还在看洛谷啊？还有犇犇发，羡慕了。</p>`,47))])}const Q=o(l,[["render",_]]);export{q as __pageData,Q as default};

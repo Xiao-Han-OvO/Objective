@@ -1,0 +1,1312 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://objective-abk.pages.dev/docs/%E9%A2%98%E8%A7%A3/%E6%B4%9B%E8%B0%B7/%E9%A2%98%E8%A7%A3%EF%BC%9AP12218%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202023%20%E5%9B%BD%20Java%20B%5D%20%E7%8E%A9%E5%85%B7/">
+      
+      
+        <link rel="prev" href="../%E9%A2%98%E8%A7%A3%EF%BC%9AB4279%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%E9%9D%92%E5%B0%91%E5%B9%B4%E7%BB%84%E5%9B%BD%E8%B5%9B%202023%5D%20%E6%95%B0%E7%8B%AC%E5%A1%AB%E6%95%B0/">
+      
+      
+        <link rel="next" href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12280%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E5%9B%BD%20Python%20A%5D%20%E7%89%B9%E5%88%AB%E7%9A%84%E6%95%B0%E7%BB%84/">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>题解：P12218 [蓝桥杯 2023 国 Java B] 玩具 - Objective 的文档站</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#思路与算法" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="Objective 的文档站" class="md-header__button md-logo" aria-label="Objective 的文档站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Objective 的文档站
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              题解：P12218 [蓝桥杯 2023 国 Java B] 玩具
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换至深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换至浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="zh" class="md-select__link">
+              中文（简体）
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Federico-Prask" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Xiao-Han-OvO/Objective
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+  主页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  题解
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E6%B8%B8%E8%AE%B0/" class="md-tabs__link">
+          
+  
+  
+  游记
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Objective 的文档站" class="md-nav__button md-logo" aria-label="Objective 的文档站" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    Objective 的文档站
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Federico-Prask" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Xiao-Han-OvO/Objective
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    主页
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            主页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    主页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    题解
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            题解
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    洛谷
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            洛谷
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AB4279%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%E9%9D%92%E5%B0%91%E5%B9%B4%E7%BB%84%E5%9B%BD%E8%B5%9B%202023%5D%20%E6%95%B0%E7%8B%AC%E5%A1%AB%E6%95%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：B4279 [蓝桥杯青少年组国赛 2023] 数独填数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    题解：P12218 [蓝桥杯 2023 国 Java B] 玩具
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12218 [蓝桥杯 2023 国 Java B] 玩具
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#思路与算法" class="md-nav__link">
+    <span class="md-ellipsis">
+      思路与算法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="思路与算法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#思路" class="md-nav__link">
+    <span class="md-ellipsis">
+      思路
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#算法" class="md-nav__link">
+    <span class="md-ellipsis">
+      算法：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#代码" class="md-nav__link">
+    <span class="md-ellipsis">
+      代码
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12280%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E5%9B%BD%20Python%20A%5D%20%E7%89%B9%E5%88%AB%E7%9A%84%E6%95%B0%E7%BB%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12280 [蓝桥杯 2024 国 Python A] 特别的数组
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12289%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E5%9B%BD%20Java%20A%5D%20%E4%BF%AE%E6%94%B9%E6%95%B0%E4%BD%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12289 [蓝桥杯 2024 国 Java A] 修改数位
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12315%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E5%9B%BD%20C%5D%20%E6%8C%91%E8%8B%B9%E6%9E%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12315 [蓝桥杯 2024 国 C] 挑苹果
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12327%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202023%20%E7%9C%81%20Java%20B%5D%20%E8%9C%97%E7%89%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12327 [蓝桥杯 2023 省 Java B] 蜗牛
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP12413%20%E3%80%8CYLLOI-R1-T2%E3%80%8D%E5%9C%A3%E8%AF%9E%E6%98%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P12413 「YLLOI-R1-T2」圣诞星
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP13134%20%5BGCJ%202018%20Qualification%5D%20Go%2C%20Gopher%21/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P13134 [GCJ 2018 Qualification] Go, Gopher!
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%A2%98%E8%A7%A3%EF%BC%9AP13422%20%5BCOCI%202019%262020%204%5D%20Pod%20starim%20krovovima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    题解：P13422 [COCI 2019&2020 4] Pod starim krovovima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    游记
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            游记
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    游记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E8%AE%B0/2025%20%E6%9A%91%20TYOI%20%E9%9B%86%E8%AE%AD%E5%B0%8F%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025 暑 TYOI 集训小记
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#思路与算法" class="md-nav__link">
+    <span class="md-ellipsis">
+      思路与算法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="思路与算法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#思路" class="md-nav__link">
+    <span class="md-ellipsis">
+      思路
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#算法" class="md-nav__link">
+    <span class="md-ellipsis">
+      算法：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#代码" class="md-nav__link">
+    <span class="md-ellipsis">
+      代码
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Federico-Prask/edit/master/docs/题解/洛谷/题解：P12218 [蓝桥杯 2023 国 Java B] 玩具.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>题解：P12218 [蓝桥杯 2023 国 Java B] 玩具</h1>
+
+<p><span class="arithmatex">\(\mathbf{upd\ 2025/5/31}\)</span>：修正标点，修正语病与小逻辑问题，修正 <span class="arithmatex">\(\LaTeX\)</span> 中使用符号的不当之处，减少了一些没必要的啰嗦话。</p>
+<h2 id="思路与算法">思路与算法<a class="headerlink" href="#思路与算法" title="Permanent link"></a></h2>
+<h3 id="思路">思路<a class="headerlink" href="#思路" title="Permanent link"></a></h3>
+<p>在写这道题的代码之前，我注意到，既然要使权重和最小，那就不能让大的和大的（权重）相乘，小的和小的（权重）相乘，最后再加起来，这个思路是正确的。<span class="arithmatex">\(%#### 即：\)</span><span class="arithmatex">\(%#### 1. 小的乘小的、大的乘大的策略：\)</span><span class="arithmatex">\(%如果我们按照“小的乘小的”的策略，将较小的零件配对，会导致较大的权重值被直接累加到总和中。\)</span><span class="arithmatex">\(%#### 2. 小的乘大的策略：\)</span><span class="arithmatex">\(%如果我们采用“小的乘大的”的策略，将最小的零件与最大的零件配对，可以有效地平衡权重的贡献。因为较小的零件与较大的零件相乘，其结果会比两个较大的零件相乘更小。\)</span></p>
+<p>——为什么？我们来看一看。</p>
+<p>首先，我们看样例说明的操作（策略），发现有这样的规律。</p>
+<p>那让我们先来看看简单情况。</p>
+<p>首先，设有四个零件重量 <span class="arithmatex">\(a \le b \le c \le d\)</span>，我们比较两种配对方式的权重和：</p>
+<p>1.小的乘小的、大的乘大的：</p>
+<div class="arithmatex">\[
+(a \times b) + (c \times d)
+\]</div>
+<p>2.小的乘大的：</p>
+<div class="arithmatex">\[
+(a \times d) + (b \times c)
+\]</div>
+<p>我们知道，比大小，只要看相减之后，式子是正是负就可以了。</p>
+<p>所以，让我们展开并比较 <span class="arithmatex">\((a \times b) + (c \times d)\)</span> 与 <span class="arithmatex">\((a \times d) + (b \times c)\)</span> 的差值，</p>
+<p>为：</p>
+<div class="arithmatex">\[
+(a \times b) + (c \times d) - (a \times d) - (b \times c) = (a \times b) + (c \times d) - (a \times d) - (b \times c)
+\]</div>
+<p>不完全化简得：</p>
+<div class="arithmatex">\[
+(a \times b) + (c \times d) - (a \times d) - (b \times c) = (a - c) \times (b - d)
+\]</div>
+<p>由于</p>
+<div class="arithmatex">\[
+a \le b \le c \le d
+\]</div>
+<p>所以 <span class="arithmatex">\((a - c)\)</span> 和 <span class="arithmatex">\((b - d)\)</span> 均为非正数，它们的乘积 <span class="arithmatex">\((a - c) \times (b - d)\)</span> 为非负数。</p>
+<p>即：</p>
+<div class="arithmatex">\[
+\because(a - c) \le 0,(b - d) \le 0
+\]</div>
+<div class="arithmatex">\[
+\therefore (a - c) \times (b - d) \ge 0
+\]</div>
+<p>又</p>
+<div class="arithmatex">\[
+(a \times b) + (c \times d) - (a \times d) - (b \times c) = (a - c) \times (b - d)
+\]</div>
+<p>因此：</p>
+<div class="arithmatex">\[
+(a \times b) + (c \times d) \ge (a \times d) + (b \times c)
+\]</div>
+<p>这表明，在零件个数为 <span class="arithmatex">\(4\)</span> 时，“小的乘大的”的策略总是优于“小的乘小的、大的乘大的”的策略。</p>
+<p>接着，我们不断拓宽：<span class="arithmatex">\(8\)</span> 个零件、<span class="arithmatex">\(12\)</span> 个零件、<span class="arithmatex">\(16\)</span> 个零件等。</p>
+<p>同时，我们注意到，当 <span class="arithmatex">\(n\)</span> 取奇数时，第 <span class="arithmatex">\((n+1) \div 2\)</span> 组刚好是中间的那一组。<br />
+这时，无论我们选用“小的乘小的、大的乘大的”还是“小的乘大的”的策略，第 <span class="arithmatex">\((n+1) \div 2\)</span> 组总是相等的，也就是说，当组数为奇数时，我们可以忽略中间的一组，并把它作为组数为偶数，即零件个数为 <span class="arithmatex">\(4\)</span> 的倍数的情况来处理。</p>
+<p>因此，“小的乘大的”的策略总是优于“小的乘小的、大的乘大的”的策略。</p>
+<h3 id="算法">算法：<a class="headerlink" href="#算法" title="Permanent link"></a></h3>
+<p>明白了上面的内容，接下来找我们要使用的算法就很简单了。</p>
+<p><del>查看算法标签，发现算法为“贪心”、“排序”和“双指针 two-pointer”，所以算法就是用这两个。</del> </p>
+<p>由于我们这里要一定使小的乘大的，因此，我们需要用到贪心的算法。又因为我们要知道什么是小的，什么是大的，我们就需要通过排序，使小的分布在最前面，大的分布在最后面。同时，已经用过的积木不能被第二次使用，我们需要使用双指针来判断我们现在正在计算的积木的重量的下标。</p>
+<h2 id="代码">代码<a class="headerlink" href="#代码" title="Permanent link"></a></h2>
+<p>由于权重是很多数的乘积的和，所以不要忘了把数据类型开大一点。我令总权重为cnt，让我们试一试最差情况：当 <span class="arithmatex">\(n\)</span> 最大，<span class="arithmatex">\(m_i\)</span>、<span class="arithmatex">\(m_j\)</span> 最大时，<span class="arithmatex">\(cnt=n\times(m_i \times m_j) = 10^5 \times 10^5 \times 10^5 = 10^{15}\)</span>。它超过了 <code>int</code> 类型的最大值（<span class="arithmatex">\(%2^{31}-1，\)</span>约 <span class="arithmatex">\(2.14748\times10 ^ 9\)</span>），而 <code>long long</code> 类型则可以记录（<span class="arithmatex">\(%2^{63}-1，\)</span>约 <span class="arithmatex">\(9.22337\times10 ^ {18}\)</span>）。又因为权重都为非负数，我们可以使用无符号类型。因此，我们在这里可以选用的数据类型（C 与 C++ 环境下）有 <code>unsigned int</code>、<code>long long</code>、<code>unsigned long long</code>。</p>
+<p>最后简单附上我的代码：</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C++</label><label for="__tabbed_1_2">C#</label><label for="__tabbed_1_3">Java</label><label for="__tabbed_1_4">Python</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="mi">200005</span><span class="p">],</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// cnt 表示权重</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%lld&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">        </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">w</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span><span class="w"> </span>
+<span class="w">    </span><span class="n">sort</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="w"> </span><span class="n">w</span><span class="o">+</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">n</span><span class="p">));</span><span class="w"> </span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="o">*</span><span class="n">n</span><span class="mi">-1</span><span class="p">;</span><span class="w"> </span>
+<span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">j</span><span class="p">){</span><span class="w"> </span>
+<span class="w">        </span><span class="n">cnt</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">];</span><span class="w"> </span>
+<span class="w">        </span><span class="n">i</span><span class="o">++</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="o">--</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%lld&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">cnt</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Linq</span><span class="p">;</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Program</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Main</span><span class="p">()</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">long</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">int</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">());</span><span class="w"> </span>
+<span class="w">        </span><span class="kt">long</span><span class="p">[]</span><span class="w"> </span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">().</span><span class="n">Split</span><span class="p">().</span><span class="n">Select</span><span class="p">(</span><span class="kt">long</span><span class="p">.</span><span class="n">Parse</span><span class="p">).</span><span class="n">ToArray</span><span class="p">();</span><span class="w"> </span>
+<span class="w">        </span><span class="n">Array</span><span class="p">.</span><span class="n">Sort</span><span class="p">(</span><span class="n">w</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="kt">long</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// 权重</span>
+<span class="w">        </span><span class="kt">long</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">j</span><span class="p">)</span><span class="w"> </span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="n">cnt</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">];</span><span class="w"> </span>
+<span class="w">            </span><span class="n">i</span><span class="o">++</span><span class="p">;</span>
+<span class="w">            </span><span class="n">j</span><span class="o">--</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">cnt</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Arrays</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span>
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Scanner</span><span class="w"> </span><span class="n">sc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+<span class="w">        </span><span class="kt">long</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLong</span><span class="p">();</span><span class="w"> </span>
+<span class="w">        </span><span class="kt">long</span><span class="o">[]</span><span class="w"> </span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">long</span><span class="o">[</span><span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="o">]</span><span class="p">;</span><span class="w"> </span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">w</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLong</span><span class="p">();</span><span class="w"> </span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">Arrays</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">w</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="kt">long</span><span class="w"> </span><span class="n">cnt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// 权重</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">j</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">            </span><span class="n">cnt</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">w</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">w</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="p">;</span><span class="w"> </span>
+<span class="w">            </span><span class="n">i</span><span class="o">++</span><span class="p">;</span>
+<span class="w">            </span><span class="n">j</span><span class="o">--</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">cnt</span><span class="p">);</span><span class="w"> </span>
+<span class="w">        </span><span class="n">sc</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>  
+<span class="n">w</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>  
+<span class="n">w</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>  
+<span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 权重</span>
+<span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span>  
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">:</span>  
+    <span class="n">cnt</span> <span class="o">+=</span> <span class="n">w</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>  
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span>  
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2024-2025 <a href = "https://github.com/Federico-Prask">Federico Prask</a>, Luogu <a href = "https://www.luogu.com.cn/user/734491">Objective</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Xiao-Han-OvO/Objective" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "navigation.instant", "navigation.tabs", "navigation.top", "search.highlight", "search.suggest"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
